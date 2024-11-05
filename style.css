@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #83a4d4, #b6fbff);
+    background: linear-gradient(135deg, #780206, #061161);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body h1 {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     max-width: 1000px;
     /* Set a max width to control size */
     min-width: 400px;
@@ -29,6 +29,7 @@ body h1 {
 }
 
 .cell {
+    color: #fff;
     display: inline-block;
     width: 50px;
     /* Increased width of each cell */
@@ -57,4 +58,28 @@ body h1 {
 .absent {
     background-color: gray;
     color: white;
+}
+
+#message {
+    color: #fff;
+}
+
+#restart {
+    display: none;
+    /* Default to hidden, as it only shows after the game ends */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    /* Green background */
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restart:hover {
+    background-color: gray;
+    ;
+    /* Darker green on hover */
 }
