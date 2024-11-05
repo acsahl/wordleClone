@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #780206, #061161);
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ body h1 {
 }
 
 .absent {
-    background-color: gray;
+    background-color: transparent;
     color: white;
 }
 
